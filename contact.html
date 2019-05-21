@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+		<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+		<title>联系我们页面</title>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<style type="text/css">
+	    html,body{margin:0;padding:0;}
+	    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+	    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="container-fluid bg_small clearfix">
+			<!--导航条部分-->
+			
+			<!--导航条-->
+			<nav class="navbar nav_bg clearfix">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed myHeadbtn" data-toggle="collapse" data-target="#navTarget">
+							<span class="icon-bar" ></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="index.html" class="navbar-brand logo">
+							<span>FIT</span>
+							<span>PRO</span>
+						</a>
+					</div>
+					
+					<div class="navbar-collapse collapse" id="navTarget">
+						<ul class="nav navbar-nav navbar-right text-center">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="trainers.html">培训师</a></li>
+							<li><a href="404.html">服务</a></li>
+							<li><a href="blog.html">博客</a></li>
+							<li><a href="contact.html" class="active">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>	
+		
+		<!--中间部分-->	
+		<div class="container-fluid samll_nav">
+			<a href="index.html">首页</a>
+			<span>/联系我们</span>
+		</div>
+		<!--/中间部分-->
+		
+		<!--联系我们相信消息-->
+		<section class="container-fluid box">
+			<div class="container-fluid">
+				<div class="container text-center contact_one">
+					<h2>联系我们</h2>
+					<div class="row">
+						<div class="col-xs-6 contact_oneleft">
+							<form class="form-group text-left">
+								<label>名 称：</label>
+								<input type="text" class="form-control" name="" id="" value="" placeholder="请填写您的姓名..." />
+								<label>邮 件：</label>
+								<input type="email" class="form-control" name="" id="" value="" placeholder="请填写您的姓名..." />
+								<label>传 真：</label>
+								<input type="text" class="form-control" name="" id="" value="" placeholder="请填写您的姓名..." />
+							</form>
+						</div>
+						<div class="col-xs-6 text-left contact_oneright">
+							<label>留 言：</label>
+							<textarea rows="20" class="form-control" placeholder="有什么好的意见或建议呢..."></textarea>
+							<button type="button" class="btn1">提 交</button>
+						</div>
+					</div>
+					
+					<div class="row text-left row2">
+						<div class="col-xs-4 contact_twoleft">
+							<h3>地点</h3>
+							<span>500 Lorem Ipsum Dolor Sit，</span>
+							<p>22-56-2-9 Sit Amet，Lorem，</p>
+							<p>美国</p>
+							<p>电话：（00）222 666 444</p>
+							<p>传真：（000）000 00 00 0</p>
+							<p>电子邮件：info（at）example.com</p>
+							<p>关注：Facebook，Twitter</p>
+						</div>
+						<div class="col-xs-8 contact_tworight">
+							<h3>在这里找到我们</h3>
+							
+							<!--百度地图容器-->
+  							<div class="mapp" style="width:760px;height:147px;border:#ccc solid 1px;" id="dituContent"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/联系我们相信消息-->
+		
+		<!--底部-->
+		<footer>
+			<div class="container-fluid buttomm_bg"  id="buttomm_one">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4 text-left buttomm_one1">
+							<h3><span>RECENT</span><span>POSTS</span></h3>
+							<p>The do’s and don’ts of running for fitness</p>
+							<p>Sed rhoncus nulla turpis, vitae rutrum velit iaculis et. Curabitur vestibulum, erat non im</p>
+							<p>April 1, 2014 , By Robert Louise</p>
+							<p>The do’s and don’ts of running for fitness</p>
+							<p>Sed rhoncus nulla turpis, vitae rutrum velit iaculis et. Curabitur vestibulum, erat non im</p>
+							<p>April 1, 2014 , By Robert Louise</p>
+						</div>
+						<div class="col-xs-4 text-left buttomm_one2">
+							<h3><span>OPENING</span><span>HOURS</span></h3>
+							<div class="bor">
+								<img src="images/redkey-1.fw.png"/>
+								<span>&nbsp;monday</span>
+								<span>h.6:00-h.24:00</span>
+							</div>
+							<div class="bor">
+								<img src="images/redkey-1.fw.png"/>
+								<span>&nbsp;Tuesday</span>
+								<span>h.6:00-h.24:00</span>
+							</div>
+							<div class="bor">
+								<img src="images/redkey-1.fw.png"/>
+								<span>&nbsp;Wednesday</span>
+								<span>h.6:00-h.24:00</span>
+							</div>
+							<div class="bor">
+								<img src="images/redkey-1.fw.png"/>
+								<span>&nbsp;Thrusday</span>
+								<span>h.6:00-h.24:00</span>
+							</div>
+							<div class="bor">
+								<img src="images/redkey-1.fw.png"/>
+								<span>&nbsp;Friday</span>
+								<span>h.6:00-h.24:00</span>
+							</div>
+							<div class="bor">
+								<img src="images/redkey-1.fw.png"/>
+								<span>&nbsp;Saturday</span>
+								<span>h.6:00-h.24:00</span>
+							</div>
+							<div class="bor">
+								<img src="images/redkey-1.fw.png"/>
+								<span>&nbsp;Sunday</span>
+								<span>Closed</span>
+							</div>
+						</div>
+						<div class="col-xs-4 text-left buttomm_one3 last_sliders">
+							<h3><span>CONTACT</span><span>INFO</span></h3>
+							<p class="last_fonts">123, new street, 129907 New Yark</p>
+							<p class="phone_email">023 456 23456</p>
+							<p class="phone_email">123 int@example.com</p>
+							<input type="text" name="input" id="last_input"placeholder="搜 索" />
+							<button type="button"  >搜 索</button>
+							<p>Lorem ipsum dolor sit amet conse aliqua. Ut enim ad minim veniam Lorem ctetur adipisicing .</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<!--回到顶部按钮-->
+		<img src="images/movetop.png" id="return_top"/>
+		
+		<script src="js/contact.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

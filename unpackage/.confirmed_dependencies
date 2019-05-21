@@ -1,0 +1,136 @@
+{
+	"index.html": {
+		"refer": [
+			"about.html",
+			"trainers.html",
+			"contact.html"
+		],
+		"resources": [
+			"images/t3.jpg",
+			"images/slide3.png",
+			"images/slide4.png",
+			"images/n1.jpg",
+			"js/jquery-1.12.4.min.js",
+			"images/slide2.png",
+			"fonts/glyphicons-halflings-regular.woff2",
+			"css/index.css",
+			"images/Clocks-4.fw.png",
+			"images/n3.jpg",
+			"css/bootstrap.css",
+			"images/c3.jpg",
+			"images/key-1.fw.png",
+			"images/love-3.fw.png",
+			"images/redkey-1.fw.png",
+			"js/bootstrap.min.js",
+			"images/n2.jpg",
+			"images/t2.jpg",
+			"images/c2.jpg",
+			"images/move-top.png",
+			"images/t1.jpg",
+			"images/banner.jpg",
+			"images/c1.jpg",
+			"images/read.png",
+			"images/information-2.fw.png",
+			"js/index.js",
+			"about.html",
+			"trainers.html",
+			"images/movetop.png",
+			"contact.html"
+		]
+	},
+	"about.html": {
+		"resources": [
+			"css/index.css",
+			"css/bootstrap.css",
+			"images/ab.jpg",
+			"js/bootstrap.js",
+			"js/about.js",
+			"trainers.html",
+			"404.html",
+			"index.html",
+			"contact.html"
+		],
+		"refer": [
+			"trainers.html",
+			"404.html",
+			"index.html",
+			"contact.html"
+		]
+	},
+	"trainers.html": {
+		"resources": [
+			"css/index.css",
+			"css/bootstrap.css",
+			"images/b1.jpg",
+			"images/t1.jpg",
+			"images/n3.jpg",
+			"images/t3.jpg",
+			"images/t2.jpg",
+			"js/trainers.js",
+			"images/n1.jpg",
+			"images/b3.jpg",
+			"images/b2.jpg",
+			"images/n2.jpg",
+			"404.html",
+			"contact.html",
+			"blog.html",
+			"js/bootstrap.js",
+			"index.html"
+		],
+		"refer": [
+			"404.html",
+			"contact.html",
+			"blog.html",
+			"index.html"
+		]
+	},
+	"404.html": {
+		"refer": [
+			"blog.html",
+			"trainers.html",
+			"contact.html"
+		],
+		"resources": [
+			"css/index.css",
+			"css/bootstrap.css",
+			"js/404.js",
+			"blog.html",
+			"trainers.html",
+			"contact.html"
+		]
+	},
+	"blog.html": {
+		"refer": [
+			"contact.html",
+			"404.html"
+		],
+		"resources": [
+			"images/name-1.fw.png",
+			"css/index.css",
+			"css/bootstrap.css",
+			"images/blog1.jpg",
+			"images/blog2.jpg",
+			"images/blog3.jpg",
+			"images/aixin-2.fw.png",
+			"images/xinxi-3.fw.png",
+			"images/read.png",
+			"js/blog.js",
+			"contact.html",
+			"404.html"
+		]
+	},
+	"contact.html": {
+		"resources": [
+			"index.html",
+			"css/index.css",
+			"css/bootstrap.css",
+			"js/contact.js",
+			"blog.html",
+			"js/bootstrap.js"
+		],
+		"refer": [
+			"index.html",
+			"blog.html"
+		]
+	}
+}
